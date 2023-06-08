@@ -549,7 +549,7 @@ void OgreRenderEngine::CreateRenderSystem()
 
   // check if target fsaa is supported
   unsigned int fsaa = 0;
-  unsigned int targetFSAA = 4;
+  unsigned int targetFSAA = 0;
   auto const it = std::find(this->dataPtr->fsaaLevels.begin(),
       this->dataPtr->fsaaLevels.end(), targetFSAA);
   if (it != this->dataPtr->fsaaLevels.end())

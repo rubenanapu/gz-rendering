@@ -122,7 +122,7 @@ namespace gz
 
       protected: bool colorDirty = true;
 
-      protected: unsigned int antiAliasing = 4;
+      protected: unsigned int antiAliasing = 0;
 
       /// \brief visibility mask associated with this render target
       protected: uint32_t visibilityMask = GZ_VISIBILITY_ALL;

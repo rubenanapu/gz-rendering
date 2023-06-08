@@ -619,8 +619,8 @@ uint8_t Ogre2RenderTarget::TargetFSAA() const
     targetFSAA = 0u;
   }
 
-  if (targetFSAA == 0u)
-    targetFSAA = 1u;
+  // if (targetFSAA == 0u)
+  //   targetFSAA = 1u;
 
   return static_cast<uint8_t>(targetFSAA);
 }
